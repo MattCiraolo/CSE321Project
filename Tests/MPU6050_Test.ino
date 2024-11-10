@@ -37,7 +37,7 @@ void loop() {
     int16_t threshold = 500;
 
     // Check if X, Y, and Z(adjusted) are close to zero
-    if (abs(ax) < threshold && abs(ay) < threshold  && abs(az) - 18500 < threshold) {
+    if (abs(ax) < threshold && abs(ay) < threshold  && abs(az) - 18000 < threshold) {
       Serial.println("The MPU6050 is level.");
     } else {
       Serial.println("The MPU6050 is not level.");
@@ -51,7 +51,7 @@ void loop() {
     Serial.print(" | Z = "); 
     Serial.print(az);
     Serial.print(" | Z' = "); 
-    Serial.print(az-18500);
+    Serial.print(az-18000);
     Serial.println("");
 
 
@@ -61,7 +61,6 @@ void loop() {
   } else {
     Serial.println("MPU6050 connection failed.");
   }
-
 }
 
 
