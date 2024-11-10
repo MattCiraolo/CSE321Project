@@ -1,6 +1,7 @@
 // Source:
 // - https://github.com/blackhack/LCD_I2C 
 
+#include <Wire.h>
 #include <LCD_I2C.h>
 
 // Address from sources above, number of columns in LCD, number of rows in LCD
@@ -8,12 +9,17 @@ LCD_I2C lcd(0x27,16,2);
 
 void setup()
 {
+
+  // Initialize the Wire library and join the I2C bus as a controller or a peripheral
+  Wire.begin();
+
   // Initialize LCD Display
   lcd.begin();
   // Turn on backlight of LCD (turn on the display)
   lcd.backlight();
   // Clears the LCD screen and positions the cursor in the upper-left corner
   lcd.clear();
+  
 }
 
 void loop()
