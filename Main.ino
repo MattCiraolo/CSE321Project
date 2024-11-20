@@ -1,6 +1,5 @@
 #include <Wire.h>
 #include <MPU6050.h>
-// #include <LCD_I2C.h>
 #include <LiquidCrystal_I2C.h>
 
 
@@ -8,7 +7,6 @@
 // This was a metod from File->Exmples->Examples from Custom Libraries->LiquidCrystal I2C->HelloWorld
 
 // Address from Hello_World_LCDTest test, number of columns in LCD, number of rows in LCD
-// LCD_I2C lcd(0x27, 16, 2); 
 LiquidCrystal_I2C lcd(0x27,16,2); 
 
 MPU6050 mpu;
