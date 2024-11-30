@@ -216,14 +216,6 @@ void loop() {
       lcd.clear();
       break;
 
-    default:
-      lcd.clear();
-      lcd.print("System Error");
-      delay(1000);
-
-      lcd.clear();
-      break;
-
   }
 
   delay(250);
