@@ -2,15 +2,17 @@
 #include <LCD_I2C.h>
 // #include <LiquidCrystal_I2C.h>
 
+// Update if necessary
+int LED_PIN = 13;
+int BTN_PIN = 12;
+
+
+
 // This was a method from File->Exmples->Examples from Custom Libraries->LiquidCrystal I2C->HelloWorld
 // Address from Hello_World_LCDTest test, number of columns in LCD, number of rows in LCD
 LCD_I2C lcd(0x27, 16, 2); 
 // LiquidCrystal_I2C lcd(0x27,16,2); 
-
 MPU6050 mpu;
-
-int LED_PIN = 13;
-int BTN_PIN = 12;
 int buttonState = 0;  // variable for reading the pushbutton status
 
 char current_state;
