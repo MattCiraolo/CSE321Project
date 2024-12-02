@@ -17,3 +17,19 @@ Required Software Libraires:
 Hardware Setup Diagram:
 
 ![screenshot](images/Diagram.PNG)
+
+Software Setup
+  1. Download and install the Arduino IDE from Arduino's official website.
+  2. Clone this repository:
+```
+git clone https://github.com/MattCiraolo/CSE321Project.git
+```
+  4. Install Required Software Libraires from above
+  5. Download the Main.ino file
+  6. Open Main.ino file in the Arduino IDE
+  7. Update LED and Button Pin in software if necessary
+  8. Connect computer with Arduino IDE installed to Arduino Uno using a USB cable
+  9. Upload the code
+  10. Enjoy!
+
+
