@@ -18,7 +18,7 @@ Hardware Setup Diagram:
 
 ![screenshot](images/Diagram.PNG)
 
-Software Setup
+##Software Setup
   1. Download and install the Arduino IDE from Arduino's official website.
   2. Clone this repository:
 ```
