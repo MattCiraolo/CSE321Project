@@ -15,4 +15,5 @@ Required Software Libraires:
   - MPU6050.h
 
 Hardware Setup Diagram:
-![screenshot](images/circuit_diagram.png)
+
+![screenshot](images/Diagram.png)
