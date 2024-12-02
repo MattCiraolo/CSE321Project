@@ -36,4 +36,9 @@ git clone https://github.com/MattCiraolo/CSE321Project.git
   9. Upload the code
    10. Enjoy!
 
-
+## How To Use:
+1. Connect the system to Power using USB cable connected to the Arduino
+2. Place device on surface you woule like to evaluate if it is level
+3. Press the Reset Button to set the surface you would like to level
+4. Use the system
+5. Repeat Steps 2-4 when measuring different surfaces and angles. 
