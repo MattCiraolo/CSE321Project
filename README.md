@@ -1,7 +1,9 @@
 # CSE321 Project: Digital Level
-Matthew Ciraolo
+## Matthew Ciraolo
 
-Hardware Components List:
+## Requiremnets
+
+### Hardware Components List:
   - Arduino Uno Rev 3
   - HiLetgo GY-521 MPU-6050 MPU6050 3 Axis Accelerometer Gyroscope Module
   - Blue LED
@@ -10,15 +12,17 @@ Hardware Components List:
   - 2x 200Ohm Resistors
   - Wiring (ideally multiple colors for orgainzation)
 
-Required Software Libraires:
+### Required Software Libraires:
   - LiquidCrystal_I2C.h
   - MPU6050.h
 
-Hardware Setup Diagram:
+## Setup
+
+### Hardware Setup Diagram:
 
 ![screenshot](images/Diagram.PNG)
 
-##Software Setup
+### Software Setup
   1. Download and install the Arduino IDE from Arduino's official website.
   2. Clone this repository:
 ```
