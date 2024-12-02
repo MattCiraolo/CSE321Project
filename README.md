@@ -16,4 +16,4 @@ Required Software Libraires:
 
 Hardware Setup Diagram:
 
-![screenshot](images/Diagram.png)
+![screenshot](images/Diagram.PNG)
