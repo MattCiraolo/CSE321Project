@@ -1,18 +1,17 @@
 #include <MPU6050.h>
+#include <Wire.h>
 #include <LCD_I2C.h>
 // #include <LiquidCrystal_I2C.h>
-
-// Update if necessary
-int LED_PIN = 13;
-int BTN_PIN = 12;
-
-
 
 // This was a method from File->Exmples->Examples from Custom Libraries->LiquidCrystal I2C->HelloWorld
 // Address from Hello_World_LCDTest test, number of columns in LCD, number of rows in LCD
 LCD_I2C lcd(0x27, 16, 2); 
 // LiquidCrystal_I2C lcd(0x27,16,2); 
+
 MPU6050 mpu;
+
+int LED_PIN = 13;
+int BTN_PIN = 12;
 int buttonState = 0;  // variable for reading the pushbutton status
 
 char current_state;
@@ -22,16 +21,16 @@ int16_t x, y, z;
 // Accelerometer data in x,y,z directiuons respectively. Note: az is not used within this project
 int16_t ax, ay, az;
 // Threshold values to determine if MPU6050 is level aka the degree of error in our data recieved
-int16_t threshold = 300;
+int16_t threshold = 400;
 
 void setup() {
+  
+  Wire.begin();
   // Initilize Accelerometer
   mpu.initialize();
 
   //Initilize LED for completely level
   pinMode(LED_PIN, OUTPUT);
-
-
   // initialize the pushbutton pin as an input:
   pinMode(BTN_PIN, INPUT);
 
@@ -214,6 +213,14 @@ void loop() {
       mpu.getAcceleration(&x, &y, &z);
 
       current_state = level;
+
+      lcd.clear();
+      break;
+
+    default:
+      lcd.clear();
+      lcd.print("System Error");
+      delay(1000);
 
       lcd.clear();
       break;
