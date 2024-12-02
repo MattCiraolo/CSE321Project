@@ -14,6 +14,7 @@ Matthew Ciraolo
   - (Reccomended) Breadboard
 
 ### Required Software Libraires:
+  - Wire.h
   - LiquidCrystal_I2C.h
   - MPU6050.h
 
