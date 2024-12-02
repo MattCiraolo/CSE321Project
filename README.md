@@ -38,7 +38,7 @@ git clone https://github.com/MattCiraolo/CSE321Project.git
    10. Enjoy!
 
 ## How To Use:
-1. Properly Set Up and COnfigure the system as per instractions within this README file
+1. Properly Set Up and Configure the system as per instractions within this README file
 2. Connect the system to Power using USB cable connected to the Arduino
 3. Place device on surface you woule like to evaluate if it is level
 4. Press the Reset Button to set the surface you would like to level
