@@ -10,8 +10,8 @@
 // Address from Hello_World_LCDTest test, number of columns in LCD, number of rows in LCD
 LCD_I2C lcd(0x27, 16, 2); 
 // LiquidCrystal_I2C lcd(0x27,16,2); 
-LED_PIN = 13;
-BTN_PIN = 12;
+int LED_PIN = 13;
+int BTN_PIN = 12;
 
 MPU6050 mpu;
 
