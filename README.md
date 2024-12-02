@@ -1,5 +1,5 @@
 # CSE321 Project: Digital Level
-## Matthew Ciraolo
+Matthew Ciraolo
 
 ## Requiremnets
 
