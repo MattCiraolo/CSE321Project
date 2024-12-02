@@ -11,6 +11,7 @@ Matthew Ciraolo
   - Button
   - 2x 200Ohm Resistors
   - Wiring (ideally multiple colors for orgainzation)
+  - (Reccomended) Breadboard
 
 ### Required Software Libraires:
   - LiquidCrystal_I2C.h
@@ -41,4 +42,9 @@ git clone https://github.com/MattCiraolo/CSE321Project.git
 2. Place device on surface you woule like to evaluate if it is level
 3. Press the Reset Button to set the surface you would like to level
 4. Use the system
-5. Repeat Steps 2-4 when measuring different surfaces and angles. 
+5. Repeat Steps 2-4 when measuring different surfaces and angles.
+
+## Future Improvements
+1. Creating a Case to concolidate hardware and make system more visually appealing
+2. Adding an On/Off feature besides unplugging it or plugging it back in, note that this is done currently to more efficiently demonstrate how the tests were used with the system for demonstrational purposes. 
+
