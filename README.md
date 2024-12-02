@@ -30,6 +30,6 @@ git clone https://github.com/MattCiraolo/CSE321Project.git
   7. Update LED and Button Pin in software if necessary
   8. Connect computer with Arduino IDE installed to Arduino Uno using a USB cable
   9. Upload the code
-  10. Enjoy!
+   10. Enjoy!
 
 
